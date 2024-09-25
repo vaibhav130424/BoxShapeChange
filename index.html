@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Shape</title>
+    <style>
+        .parentbox {
+            margin: 50px;
+            padding: 50px 50px;
+            width: 500px;
+            border: 2px solid;
+            display: flex;
+            background-color: antiquewhite;
+            gap: 20px;
+        }
+        .box {
+            padding: 10px;
+            height: 70px;
+            width: 100px;
+            border: 1px solid;
+            transition: 0.3s;
+            background-color: blue;
+        }
+        .box3:hover {
+            background-color: red;
+            height: 140px;
+            width: 200px
+        }
+    </style>
+</head>
+<body>
+    <div class="parentbox">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box box3"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
